@@ -1,0 +1,38 @@
+backend flow 
+
+i. backend create -
+{
+    1. npm init -y, 
+    2. package install,
+    3.folder create - config,middlware,controllers,models,routes,
+    main file - server.js,
+    .env
+
+}
+ii.- mongoose connect 
+iii. - login,register,
+iv. - jwt authorizetion
+
+
+v.userModel{
+    name,email,password,role,avatar,bio,skills,github,linkedin,portfolio,following,isblocked
+}
+
+postModel-{
+     userIdF,
+  title,
+  description,
+  techStack,
+  image,
+  githubLink, 
+  liveLink,
+  likes
+}
+
+comment-{
+  postId: 
+  
+  userId: 
+  
+  comment:
+}
