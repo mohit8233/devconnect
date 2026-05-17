@@ -1,0 +1,189 @@
+Build project in small steps
+
+Week 1
+
+UI + routing
+
+Week 2
+
+Firebase auth
+
+Week 3
+
+posts system
+
+Week 4
+
+profile page + upload
+
+Navbar design
+
+Home feed design
+
+Post card UI
+
+Profile page UI
+
+Dashboard layout
+
+==========================================================================================
+
+Main features ko 3 levels me divide kar raha hu: basic → intermediate → advanced.
+
+1️⃣ Basic Features (Must Have)
+
+Ye features hone hi chahiye.
+
+🔐 Authentication
+
+Signup
+
+Login
+
+Logout
+
+Protected routes (login ke bina dashboard open na ho)
+
+Use Firebase Authentication.
+
+👤 User Profile
+
+User apna profile create kare.
+
+Fields:
+
+Name
+
+Bio
+
+Skills
+
+GitHub link
+
+Portfolio link
+
+Profile image
+
+User profile edit bhi kar sake.
+
+📝 Create Post
+
+User apna project share kare.
+
+Post fields:
+
+Title
+
+Description
+
+Project link
+
+Image / screenshot
+
+🏠 Feed (Home Page)
+
+Home page par sab developers ke posts dikhe.
+
+Post card me:
+
+Project image
+
+Title
+
+Description
+
+Author name
+
+Like button
+
+2️⃣ Intermediate Features 
+❤️ Like System
+
+User kisi project ko like kar sake.
+
+Example:
+
+👍 32 likes
+💬 Comment System
+
+Users comments kar sake.
+
+Example:
+
+Great project bro!
+Nice UI!
+🖼 Image Upload
+
+Users upload kar sake:
+
+Profile photo
+
+Project screenshot
+
+Use Firebase Storage.
+
+🔎 Search Developers
+
+Search bar:
+
+Search by name
+Search by skill
+3️⃣ Advanced Features (Portfolio Killer 🔥)
+👥 Follow System
+
+Users ek dusre ko follow kar sake.
+
+Example:
+
+Follow / Following
+🔔 Notifications
+
+Example:
+
+Aryan liked your post
+Rohit followed you
+💬 Real-time Chat
+
+Developers ek dusre ko message kar sake.
+
+🌙 Dark Mode Toggle
+
+Light / Dark theme.
+
+📊 Dashboard
+
+User dashboard me show karo:
+
+Total posts
+Total likes
+Followers
+Following
+⭐ Ideal DevConnect Features List
+
+Portfolio me likh sakte ho:
+
+DevConnect – Developer Social Platform
+
+Features:
+
+Authentication system
+
+Developer profiles
+
+Project sharing
+
+Like & comment system
+
+Developer search
+
+Image uploads
+
+Responsive design
+
+Tech stack:
+
+React
+
+Tailwind CSS
+
+Firebase

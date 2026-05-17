@@ -1,0 +1,48 @@
+# DevConnect Color Scheme
+
+1️⃣ SITE BACKGROUND
+- bg-primary : #0f172a       // Main site background (overall page)
+- bg-secondary : #1e293b     // Sections, footer, secondary backgrounds
+
+2️⃣ CARDS / BOXES
+- bg-card : #1e293b          // Post cards, profile cards
+- shadow-card : rgba(0,0,0,0.3)  // Card / modal shadows
+- border-divider : #334155    // Dividers / borders
+
+3️⃣ TEXT COLORS
+- text-primary : #ffffff      // Main readable text
+- text-secondary : #cbd5e1    // Subtitles, descriptions, small info
+- text-link : #60a5fa         // Normal links
+- text-link-hover : #3b82f6   // Links hover color
+- text-accent : #3b82f6       // Highlights, important labels
+
+4️⃣ CTA BUTTONS
+- bg-cta : #3b82f6            // Sign Up, Create Post buttons
+- bg-cta-hover : #2563eb      // Hover state for CTA
+- text-cta : #ffffff           // CTA text color
+
+5️⃣ NAVBAR / HEADER / FOOTER
+- bg-primary : #0f172a        // Header / Footer background
+- text-primary : #ffffff      // Header text
+- links : #60a5fa             // Navbar links
+- links-hover : #3b82f6       // Navbar links hover
+
+6️⃣ HOVER / INTERACTIONS
+- card-hover : #273449        // Card hover background
+- button-hover : #2563eb      // CTA button hover
+- link-hover : #3b82f6        // Link hover
+
+7️⃣ OPTIONAL ACCENTS
+- notifications / badges : #f97316   // Orange / attention
+- success / check : #22c55e          // Green
+- error / warning : #ef4444           // Red
+
+# NOTES:
+- Primary → Main backgrounds / headers / footers
+- Secondary → Sections / cards
+- Card → Posts, Profile cards, smaller boxes
+- CTA → Important buttons (Sign Up, Create Post)
+- Text-primary → Main text
+- Text-secondary → Subtext / muted info
+- Accent → Links, highlights
+- Hover states → user interaction feedback

@@ -1,0 +1,344 @@
+DEVCONNECT BACKEND PLAN (Firebase)
+
+Technology:
+Frontend: React + Tailwind CSS
+Backend: Firebase
+
+Backend Services:
+
+* Firebase Authentication
+* Firestore Database
+* Firebase Storage
+
+---
+
+1. FIREBASE PROJECT SETUP
+
+Step 1:
+Go to Firebase Console
+
+https://console.firebase.google.com
+
+Step 2:
+Create Project
+
+Project Name:
+DevConnect
+
+Step 3:
+Register Web App
+
+Copy Firebase Config.
+
+---
+
+2. FIREBASE INSTALLATION
+
+Install Firebase in project
+
+npm install firebase
+
+Create folder:
+
+src/firebase/
+
+Create file:
+
+firebaseConfig.js
+
+Example structure:
+
+import { initializeApp } from "firebase/app";
+
+const firebaseConfig = {
+apiKey: "",
+authDomain: "",
+projectId: "",
+storageBucket: "",
+messagingSenderId: "",
+appId: ""
+};
+
+export const app = initializeApp(firebaseConfig);
+
+---
+
+3. AUTHENTICATION SYSTEM
+
+Enable Authentication
+
+Firebase Console → Authentication → Sign-in Method
+
+Enable:
+
+Email / Password
+
+Features:
+
+• User Signup
+• User Login
+• Logout
+• Protected routes
+
+Signup fields:
+
+* username
+* email
+* password
+* profileImage
+
+Functions used:
+
+createUserWithEmailAndPassword
+signInWithEmailAndPassword
+signOut
+
+---
+
+4. DATABASE STRUCTURE (Firestore)
+
+Create Firestore Database.
+
+Collections:
+
+users
+posts
+comments
+likes
+follows
+
+---
+
+5. USERS COLLECTION STRUCTURE
+
+Collection: users
+
+Fields:
+
+userId
+name
+email
+bio
+skills
+githubLink
+portfolioLink
+profileImage
+createdAt
+
+Example:
+
+users
+user123
+name: Aryan
+bio: Frontend Developer
+skills: React, Tailwind
+githubLink: github.com/aryan
+profileImage: url
+
+---
+
+6. POSTS COLLECTION STRUCTURE
+
+Collection: posts
+
+Fields:
+
+postId
+title
+description
+projectLink
+image
+userId
+likesCount
+createdAt
+
+Example:
+
+posts
+post001
+title: Portfolio Website
+description: Built with React
+projectLink: vercel.app
+userId: user123
+
+---
+
+7. COMMENTS COLLECTION
+
+Collection: comments
+
+Fields:
+
+commentId
+postId
+userId
+text
+createdAt
+
+---
+
+8. LIKES SYSTEM
+
+Collection: likes
+
+Fields:
+
+userId
+postId
+
+Logic:
+
+• User can like post
+• Prevent duplicate likes
+
+---
+
+9. FOLLOW SYSTEM
+
+Collection: follows
+
+Fields:
+
+followerId
+followingId
+
+Logic:
+
+User can follow other developers.
+
+---
+
+10. IMAGE UPLOAD
+
+Use Firebase Storage.
+
+Uploads:
+
+• profile images
+• project screenshots
+
+Storage folder example:
+
+/profile-images
+/post-images
+
+---
+
+11. SECURITY RULES (IMPORTANT)
+
+Firestore Rules Concept:
+
+• Anyone can read posts
+• Only logged-in users can create posts
+• Users can edit only their own posts
+• Users can edit their own profile
+
+Example rule logic:
+
+request.auth != null
+
+Meaning:
+User must be logged in.
+
+---
+
+12. STORAGE SECURITY RULES
+
+Allow upload only for authenticated users.
+
+Example concept:
+
+allow write: if request.auth != null
+
+Optional:
+
+Limit file size
+Limit file type
+
+---
+
+13. ENVIRONMENT VARIABLES
+
+Create file:
+
+.env
+
+Example:
+
+VITE_FIREBASE_API_KEY=
+VITE_FIREBASE_AUTH_DOMAIN=
+VITE_FIREBASE_PROJECT_ID=
+
+Use in project:
+
+import.meta.env.VITE_FIREBASE_API_KEY
+
+---
+
+14. CRUD OPERATIONS
+
+Posts system must support:
+
+Create Post
+Read Posts
+Update Post
+Delete Post
+
+Rules:
+
+User can edit/delete only their own post.
+
+---
+
+15. BACKEND FEATURES SUMMARY
+
+Authentication
+User profiles
+Create post
+Edit post
+Delete post
+Like system
+Comment system
+Follow developers
+Image upload
+Protected routes
+
+---
+
+16. DEPLOYMENT
+
+Frontend deployment:
+
+Vercel
+
+Optional backend hosting:
+
+Firebase Hosting
+
+---
+
+END OF BACKEND PLAN
+
+
+
+
+
+
+
+
+
+
+===========================================================
+
+Authentication
+User profiles
+Create post
+Edit post
+Delete post
+Like system
+Comments
+Follow developers
+Image upload
+Protected routes
+
+using firebase --:--

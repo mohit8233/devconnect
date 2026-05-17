@@ -1,0 +1,134 @@
+📅 DevConnect Completion Plan
+Day 1–2
+
+Project setup
+
+React project create
+
+Tailwind setup
+
+Folder structure create
+
+Firebase project create in Firebase
+
+Firebase config connect
+
+Day 3–4
+
+Authentication system
+
+Pages :-
+
+Signup page
+
+Login page
+
+Logout
+
+Firebase functions:
+
+createUserWithEmailAndPassword
+
+signInWithEmailAndPassword
+
+signOut
+
+Day 5–6
+
+Profile system
+
+Features:
+
+Create profile
+
+Edit profile
+
+Upload profile image
+
+Save profile data to Firestore
+
+Day 7–8
+
+Posts system
+
+Features:
+
+Create post
+
+Show posts on Home page
+
+Delete post
+
+Edit post
+
+Day 9
+
+Like system
+
+Features:
+
+Like button
+
+Like count
+
+Prevent duplicate likes
+
+Day 10
+
+Comment system
+
+Features:
+
+Add comment
+
+Show comments
+
+Delete comment
+
+Day 11
+
+Developer profile page
+
+Show:
+
+Profile info
+
+User posts
+
+Skills
+
+GitHub link
+
+Day 12
+
+Follow system (optional but strong)
+
+Features:
+
+Follow developer
+
+Followers count
+
+Following count
+
+Day 13
+
+UI polishing
+
+Responsive design
+
+Loading states
+
+Error messages
+
+Clean layout
+
+Day 14
+
+Deployment
+
+Deploy frontend using Vercel
+
+Optional hosting:
+
+Firebase Hosting
